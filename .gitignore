@@ -1,0 +1,13 @@
+# Ignora a pasta de dependências de QUALQUER projeto (Backend e Frontend)
+node_modules/
+
+# Arquivos de ambiente (geralmente contêm senhas)
+.env
+
+# Arquivo do banco de dados SQLite
+/Backend/database/database.sqlite
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
